@@ -28,7 +28,7 @@ function delete_selection(x) {
 
 function displayTotal() {
 
-    document.getElementById("total").innerHTML += "<br/><br/>Total order amount is R" + totalOrderAmt.toFixed(2);
+    document.getElementById("total").innerHTML = "<br/><br/>Total order amount is R" + totalOrderAmt.toFixed(2);
 }
 
 
